@@ -1,0 +1,26 @@
+{
+  "name": "esbuild-plugin-less",
+  "version": "0.0.1",
+  "description": "An esbuild plugin to build less files",
+  "main": "index.js",
+  "scripts": {
+    "test": "node ./test/testBuild.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tikotzky/esbuild-plugin-less.git"
+  },
+  "keywords": [
+    "esbuild",
+    "plugin",
+    "less"
+  ],
+  "author": "Mordy Tikotzky",
+  "license": "ISC",
+  "dependencies": {
+    "less": "^3.12.2"
+  },
+  "devDependencies": {
+    "esbuild": "^0.8.17"
+  }
+}
